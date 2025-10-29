@@ -16,7 +16,7 @@ export default function Projects() {
                 </div>
             </div>
             <div className="flex-[0_0_100%] md:flex-[0_0_(100%/3)] px-2">
-                <article className="rounded-2xl bg-[#D9D9D9] min-w-0 p-0 pb-5 w-full">
+                <article className="rounded-2xl bg-gray-200 min-w-0 p-0 pb-5 w-full">
                     <div className="relative w-full mb-20">
                         {/* Lembrar de por  https://www.npmjs.com/package/embla-carousel*/}
                         <Image
