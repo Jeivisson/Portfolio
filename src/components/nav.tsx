@@ -17,26 +17,42 @@ export default function Nav() {
                         <ul className=" flex space-x-4 mr-3 font-x">
                             <li>
                                 <a
-                                    className="p-1 hover:bg-gray-400 hover:rounded-[5px] transition-colors duration-200"
+                                    className="px-2 py-0.5 hover:bg-gray-400 hover:rounded-[5px] transition-colors duration-200"
                                     href="#"
+                                >
+                                    /Home
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    className="px-2 py-0.5 hover:bg-gray-400 hover:rounded-[5px] transition-colors duration-200"
+                                    href="#about"
                                 >
                                     /About
                                 </a>
                             </li>
                             <li>
                                 <a
-                                    className="p-1 hover:bg-gray-400 hover:rounded-[5px] transition-colors duration-200"
-                                    href="#"
+                                    className="px-2 py-0.5 hover:bg-gray-400 hover:rounded-[5px] transition-colors duration-200"
+                                    href="#projects"
                                 >
-                                    /Dev
+                                    /Projects
                                 </a>
                             </li>
                             <li>
                                 <a
-                                    className="p-1 hover:bg-gray-400 hover:rounded-[5px] transition-colors duration-200"
-                                    href="#"
+                                    className="px-2 py-0.5 hover:bg-gray-400 hover:rounded-[5px] transition-colors duration-200"
+                                    href="#skills"
                                 >
                                     /Skills
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    className="px-2 py-0.5 hover:bg-gray-400 hover:rounded-[5px] transition-colors duration-200"
+                                    href="#contact"
+                                >
+                                    /Contact
                                 </a>
                             </li>
                         </ul>
