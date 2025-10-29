@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Sidebar() {
     return (
-        <aside className="fixed top-1/2 -translate-y-1/2 left-0  bg-gray-100 shadow-xl rounded-r-2xl  cursor-pointer flex flex-col items-center justify-center space-y-6">
+        <aside className=" xl:opacity-100 fixed top-1/2 -translate-y-1/2 left-0  bg-gray-100 shadow-xl rounded-r-2xl  cursor-pointer flex flex-col items-center justify-center space-y-6">
             <div className="p-2">
                 <nav>
                     <ul>
