@@ -11,42 +11,42 @@ export default function Skills() {
             <section id="skills">
                 <div className="grid grid-cols-3 gap-6 text-center">
                     <a
-                        className="cursor-pointer"
+                        className="cursor-pointer hover:animate-ping"
                         href="https://react.dev/"
                         target="_blank"
                     >
                         <FaReact size={40} className="m-auto" />
                     </a>
                     <a
-                        className="cursor-pointer"
+                        className="cursor-pointer hover:animate-ping"
                         href="https://nodejs.org/en"
                         target="_blank"
                     >
                         <FaNodeJs size={40} className="m-auto" />
                     </a>
                     <a
-                        className="cursor-pointer"
+                        className="cursor-pointer hover:animate-ping"
                         href="https://www.postgresql.org/"
                         target="_blank"
                     >
                         <BiLogoPostgresql size={40} className="m-auto" />
                     </a>
                     <a
-                        className="cursor-pointer"
+                        className="cursor-pointer hover:animate-ping"
                         href="https://tailwindcss.com/"
                         target="_blank"
                     >
                         <RiTailwindCssFill size={40} className="m-auto" />
                     </a>
                     <a
-                        className="cursor-pointer"
+                        className="cursor-pointer hover:animate-ping"
                         href="https://nextjs.org/"
                         target="_blank"
                     >
                         <RiNextjsFill size={40} className="m-auto" />
                     </a>
                     <a
-                        className="cursor-pointer"
+                        className="cursor-pointer hover:animate-ping"
                         href="https://docs.github.com/"
                         target="_blank"
                     >

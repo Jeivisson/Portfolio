@@ -6,7 +6,7 @@ export default function Nav() {
         <header className="fixed top-0 left-0 w-full">
             <div className="flex flex-row items-center justify-center xl:justify-between px-0 py-4 ">
                 <Image
-                    className=" pt-[30px] pl-5 justify-center"
+                    className=" ml-4  justify-center"
                     src={JeiiLogo}
                     alt="logo"
                     width={200}

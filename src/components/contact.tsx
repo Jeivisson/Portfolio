@@ -1,4 +1,5 @@
 import { IoIosMail } from "react-icons/io";
+import BackToTopButton from "./BackToTopButton";
 
 export default function Contact() {
     return (
@@ -37,6 +38,7 @@ export default function Contact() {
                     </a>
                 </div>
             </div>
+            <BackToTopButton />
         </section>
     );
 }
