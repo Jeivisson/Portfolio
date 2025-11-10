@@ -1,10 +1,10 @@
-import About from "../components/about";
-import Contact from "../components/contact";
-import Hero from "../components/hero";
-import Nav from "../components/nav";
-import Projects from "../components/projects";
-import Sidebar from "../components/sidebar";
-import Skills from "../components/skills";
+import About from "../components/About";
+import Contact from "../components/Contact";
+import Hero from "../components/Hero";
+import Nav from "../components/NavBar";
+import Projects from "../components/Projects";
+import Sidebar from "../components/SideBar";
+import Skills from "../components/Skills";
 
 export default function Home() {
     return (
