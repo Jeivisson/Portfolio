@@ -3,7 +3,7 @@ import JeiiLogo from "../../public/jeiilogo.svg";
 
 export default function Nav() {
     return (
-        <header className="fixed top-0 left-0 w-full">
+        <header className="fixed top-0 left-0 w-full bg-white z-50">
             <div className="flex flex-row items-center justify-center xl:justify-between px-0 py-4 ">
                 <Image
                     className=" ml-4  justify-center"
